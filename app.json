@@ -3,6 +3,7 @@
     "name": "expo-firebase-auth",
     "slug": "expo-firebase-auth",
     "version": "1.0.0",
+    "scheme": "expo-firebase-auth",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.thebunkers.expofirebaseauth"

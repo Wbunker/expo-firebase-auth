@@ -1,9 +1,11 @@
 // expo install expo-web-browser expo-auth-session expo-random
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, View, Text, Image, Button } from "react-native";
+import { StyleSheet, View, Text, Image, Button, LogBox } from "react-native";
 import * as Google from "expo-auth-session/providers/google";
 import Constants from "expo-constants";
+
+LogBox.ignoreLogs(["EventEmitter.removeListener"]);
 
 export default function App() {
   const [accessToken, setAccessToken] = React.useState();
