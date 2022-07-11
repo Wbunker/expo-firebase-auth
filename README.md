@@ -3,7 +3,7 @@ Get Expo project set up
 ```
 expo init xxxx
 cd xxxx
-expo install expo-auth-session expo-random expo-application expo-web-browser
+expo install expo-auth-session expo-random expo-application expo-web-browser expo-constants
 eas build:configure
 eas build
 eas credentials
